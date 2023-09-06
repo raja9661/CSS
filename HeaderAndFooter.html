@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header and Footer</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .box{
+            height: 1040px;
+        }
+        .Header
+        {
+            border: 2px solid aqua;
+            position:fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            background-color:darkgoldenrod;
+            color: white;
+            text-align: center;
+            height: 120px;
+        }
+        .icon{
+            position: absolute;
+            left: 15px;
+            top:35px;
+        }
+        ul{
+            position: absolute;
+            left: 250px;
+            color: black;
+            display: flex;
+            gap: 30px;
+            /* align-items: center; */
+            padding: 40px;
+            cursor: pointer;
+            font-size:20px;
+            font-weight: 700;
+        }
+        img{
+            height: 30px;
+        }
+        .SearchBox{
+            
+            position:absolute;
+            top: 25px;
+            right: 10px;
+            padding: 10px;
+            color: #000;
+        }
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        .Form{
+            display: inline-block;
+            background-color:fuchsia;
+            color: #000;
+            height: 60px;
+            position: absolute;
+            left: 10px;
+            top: 40px;
+        }
+        .contant
+        {
+            position:absolute;
+            top: 120px;
+            left: 0;
+            width: 100%;
+            background-color:aqua;
+            color: white;
+            text-align: center;
+            height: 800px;  
+        }
+        .footer{
+            position:absolute;
+            top:920px;
+            height:120px;
+            left: 0;
+            width: 100%;
+            background-color:fuchsia;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="Header">
+            <div class="icon">
+                <img src="./download.jpeg" alt="not found">
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#Menu">Menu</a></li>
+                <li><a href="#Item">Item</a></li>
+                <li><a href="About">About</a></li>
+            </ul>
+            <div class="SearchBox">
+                search<input type="text">
+            </div>
+        </div>
+        <div class="contant">
+        </div>
+        <div class="footer">
+            <div class="Form">
+                <form action="">
+                    For any Quary <br>
+                    <input type="text"><br>
+                    <input type="submit">
+                   <br>
+                </form>
+            </div>
+            </div>
+    </div>
+</body>
+</html>

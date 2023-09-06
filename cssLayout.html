@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Layout</title>
+    <style>
+        .container{
+            border: 2px solid white;
+            height: 1345px;
+        }
+        .box{
+            border: 2px solid white;
+            background-color: aqua;
+            bottom: 20px;
+            width: 200px;
+        }
+        .box1{
+            width: 1240px;
+            height: 150px;
+            position: sticky;
+            top: 0px;
+        }
+        .box2{
+            /* sticky attribute only work for top element */
+            /* position: sticky;
+            top: 30px; */
+            position:fixed;
+            right: 21px;
+            /* right: 60px; */
+        }
+        .box3{
+            position:relative;
+            left: 1030px;
+            margin-top: 200px;
+        }
+        p{
+            font-size:x-large;
+        }
+    </style>
+</head>
+<body>
+    <!-- 1.  Normal flow:- element occupied position one after one -->
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, expedita!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, expedita!</p> -->
+    <!-- 2.  float:- element flow accordingto given position(left,right,top,down) -->
+    <div class="container">
+        <div class="box box1">
+            <p>1</p>
+        </div>
+        <div class="box box2">
+            <p>2</p>
+        </div>
+        <div class="box box3">
+            <p>3</p>
+        </div>
+        <div class="box">
+            <p>4</p>
+        </div>
+        <p>For effectively utilizing the time we must consider some points which will help us in our whole life. This utilization includes setting goals, prepare work lists, prioritize task, and take adequate sleep and various others.
+
+            For effectively utilizing time set long and short term goals these goals will help you in remaining productive. Moreover, they will prove as a driving force that will keep you motivated. Also, this will give the willingness to achieve something in life.
+            
+            In the beginning, it will feel like a boring task but when you do it regularly then you will realize that that it only helps you to increase your productivity. Ultimately, this will force you to achieve more in life.
+            
+            Prioritizing task is a very effective way of managing time. Also, because of it, you will know the importance of various task and jobs. Apart from that, if your club and perform a similar activity in a go then it also increases your productivity. Hence, it will help you to achieve more in life.
+            In previous time many kings proclaim themselves as the ruler of their age and all. But, they forget that they have limited time. Time is the only thing in the world that is limitless. Time can make you a king or a beggar in a movement of seconds.
+
+            In conclusion, we can say that time is the greatest gift of God. Moreover, there is a saying that “if you waste time, time will waste you.” Only this line is enough to justify how important and valuable time is.
+            Being productive does not mean that you engage yourself in different tasks every time. Taking proper sleep and exercising is also part of being productive. Besides, proper exercise and sleep maintain a balance between body and mind which is very important for being productive and efficient.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, id.loream
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur fugit deserunt alias explicabo amet quas facere corrupti in velit? Labore corporis commodi delectus tenetur eos dolores optio accusamus maxime pariatur.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, provident dicta officia ex temporibus ut adipisci inventore voluptatem deleniti quasi, quae, dolorem quo deserunt. Inventore, alias. Accusantium a voluptatum impedit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, sunt soluta. In facere molestiae impedit vero, inventore cum sunt incidunt culpa magnam ullam enim fuga ipsum repellendus vitae dolor est? 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quisquam cupiditate molestias, quasi, sit autem velit praesentium exercitationem illum eius animi incidunt culpa nobis in tempore voluptate debitis voluptatibus dolor.  
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint natus cumque itaque. Atque ullam veritatis quam! Excepturi iusto molestias soluta ipsam, nesciunt eligendi illum praesentium natus illo unde officiis tempore.
+            </p>
+    </div>
+</body>
+</html>

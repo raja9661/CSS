@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Property</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            background-color: antiquewhite;
+        }
+        .box{
+            border: 2px solid black;
+            margin:10px;
+            background-color: aqua;
+            
+        }
+        .item1{
+            width: 300px;
+            height: 100px;
+            padding: 10px;
+            border: 2px solid black;
+            margin: 10px;
+            /* box-size property allows us to include padding and border in actual size */
+            box-sizing:border-box; 
+            overflow: hidden;
+        }
+        .item2
+        {
+            
+        } 
+        /* p{
+            display:block;
+        } */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box item1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, totam vero aspernatur iusto, officiis minus alias consequuntur earum velit obcaecati, repudiandae at esse facere omnis aliquam cumque hic voluptatibus! Dignissimos?</p>
+        </div>
+        <div class="box item2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, totam vero aspernatur iusto, officiis minus alias consequuntur earum velit obcaecati, repudiandae at esse facere omnis aliquam cumque hic voluptatibus! Dignissimos?</p>
+        </div >
+    </div>
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, minima.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, vitae.</p> -->
+</body>
+</html>
